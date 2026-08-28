@@ -1,13 +1,13 @@
 programa
-{//Isabelle Freitas Barbosa
+{//Isabelle Freitas Barbosa
 	
 	funcao inicio()
 	{
-		inteiro anoNasc, idade
+		inteiro anoNasc, idade, anoAtual = 2026
 		
 		escreva("Digite o ano do seu nascimento")
 		leia(anoNasc)
-		idade = 2026 - anoNasc
+		idade = anoAtual - anoNasc
 		escreva("A sua idade é: ", idade)
 		
 	}
@@ -17,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 215; 
+ * @POSICAO-CURSOR = 236; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {anoNasc, 6, 10, 7};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
